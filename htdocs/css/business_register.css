@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* 用户注册CSS Document */
+body {
+	margin:0px;
+	padding:0px;
+	font:SimSun-ExtB, SimHei;
+	font-size:12px;
+}
+span {
+	color:#F00;
+}
+/*#top {
+	width:1000px;
+	height:120px;
+	margin:auto auto;
+}
+*/
+/*#top #name {
+	font-size:42px;
+	font-weight:200;
+	text-align:center;
+	margin:60px auto auto auto;
+	color:#FF0;
+}
+#top #name a {
+	text-decoration:none;
+	color:#000;
+}
+#top #name a:hover {
+	text-decoration:underline;
+	color:#00F;
+}
+#top #login {
+	width:160px;
+	height:20px;
+	margin:20px auto 20px 700px;
+	font-size:20px;
+}
+#top #login a {
+	text-decoration:none;
+	color:#09C;
+}
+#top #login a:hover {
+	text-decoration:underline;
+	color:#00F;
+}
+*/
+/*main 开始 包含page1和page2*/
+#main {
+	border:2px #33cc33 solid;
+	width:600px;
+	height:500px;
+	margin:20px auto;
+	margin-top: 80px;
+}
+#page1 {
+	width:590px;
+	height:490px;
+}
+#page1 #title {
+	width:400px;
+	height:60px;
+	margin:20px auto;
+	font-size:30px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:20px;
+}
+#page1 #title a {
+	text-decoration:none;
+}
+#page1 #title a:hover {
+	text-decoration:underline;
+	color:#F00;
+}
+.msg {
+	border:0;
+	background:transparent; 
+	height:26px;
+	width:130px;
+	margin:0px 10px 0 50px;
+	text-align:center;
+	float:right;
+	color:red;
+	/*border:red 1px solid;*/
+}
+
+#page1 .div1 {
+	width:600px;
+	height:26px;
+	margin:20px 0px 20px 0px;
+	text-align:right;
+	font-size:20px;
+}
+#sPasMsg {
+	color:#999;
+}
+#protocol {
+	width:280px;
+	height:20px;
+	margin:20px auto;
+	font-size:13px;
+	color:#03F;
+	text-align:center;
+}
+
+#nextBtn {
+	width:80px;
+	height:30px;
+	background-color:#ffcc00;
+	margin:20px auto;
+	font-size:20px;
+}
+#nextBtn input {
+	width:112px;
+	height:37px;
+	border:#757678 groove 1px;
+	background:#FFCC00;
+	color:#000;
+	font-weight:800;
+	font-size:20px;
+	text-align:center;
+	cursor:pointer;
+}
+/*page1页结束*/
+
+/*page2页面开始*/
+#page2 {
+	width:590px;
+	height:490px;
+}
+#page2 #title {
+	width:400px;
+	height:60px;
+	margin:20px auto;
+	font-size:30px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:20px;
+}
+
+#bname {
+	width:600px;
+	height:26px;
+	margin:20px auto;
+	font-size:20px;
+	text-align:right;
+}
+
+#task {
+	width:600px;
+	height:26px;
+	margin:20px auto;
+	font-size:20px;
+	text-align:right;
+}
+#protocol
+{
+	width:280px;
+	height:20px;
+	margin:80px auto 40px auto ;
+	font-size:13px;
+	color:#03F;
+	text-align:center;
+}
+#registerBtn {
+	width:80px;
+	height:30px;
+	background-color:#ffcc00;
+	margin:20px auto;
+	font-size:20px;
+}
+#registerBtn input {
+	width:112px;
+	height:37px;
+	border:#757678 groove 1px;
+	background:#FFCC00;
+	color:#000;
+	font-weight:800;
+	font-size:20px;
+	text-align:center;
+	cursor:pointer;
+}

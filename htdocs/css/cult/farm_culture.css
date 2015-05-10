@@ -1,0 +1,101 @@
+/**基本格式开始***************/
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p {
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+}
+ul {
+	list-style:none;
+}
+img,a img {
+	border:none;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+.auto {
+	width:960px;
+	margin:0 auto;
+}
+/**基本格式结束***************/
+/*导航条开始*/
+#header_link {
+	width:100%;
+	height:50px;
+	/*border:1px solid red;*/
+	margin:50px auto 10px auto;
+	background:#aad6a3;
+}
+#header_link ul {
+	margin-left:150px;
+}
+#header_link ul li a{
+	float:left;
+	line-height:50px;
+	font-size:18px;
+	font-family:黑体;
+	color:#000;
+	margin-right:50px;
+}
+#header_link ul li a:hover {
+	text-decoration:none;
+	background:#4aa93e;
+	color:#FFF;
+}
+/*main 开始*/
+
+#main {
+	width:100%;
+	min-height:600px;　　/*与body内容长度保持一致*/ 
+　 	height:auto;　　/*当div内容超过200px高度时，div自动增高*/ 
+	margin:10px auto 80px auto;
+}
+.main_div {
+	width:1100px;
+	height:480px;
+	margin:15px auto;
+	/*border:1px solid red;*/
+}
+.main_div_left  {
+	height:420px;
+	width:546px;
+	/*border:1px solid red;*/
+	float:left;
+}
+.header_link {
+	line-height:25px;
+	font-size:20px;
+	font-weight:bold;
+	color:#f58f2e;
+}
+.more_link {
+	line-height:25px;
+	font-size:16px;
+	float:right;
+}
+.main_div_left ul li a{
+	display:block;
+	margin:0px 20px 20px 0px;
+	float:left;
+}
+.li_one a{
+	margin:30px auto;
+}
+.main_div_right {
+	width:520px;
+	height:420px;
+	float:right;
+	/*border:1px solid red;*/
+}
+.main_div_right ul li a{
+	line-height:25px;
+	font-size:16px;
+	color:#000;
+}
+.main_div_right ul li a:hover {
+	color:blue;
+}
+/*main结束*/

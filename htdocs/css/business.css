@@ -1,0 +1,64 @@
+/*/**基本格式开始***************/
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p {
+	margin:0px;
+	padding:0px;
+}
+body{font:14px/180% Arial, Helvetica, sans-serif, "新宋体";color: black;}
+
+table, thead ,tbody ,th ,td {
+	text-align: center;
+ 	border:1px solid #000;
+ }
+/**基本格式结束***************/
+
+
+/*main 开始*/
+#main {
+	width:1200px;
+	overflow:auto;/*使内容增加时出现滚动条 然后footer始终在底部*/
+	min-height:400px;　　/*与body内容长度保持一致*/ 
+　 	height:auto;　　/*当div内容超过200px高度时，div自动增高*/ 
+	border:0px #999 solid;
+	margin:80px auto 80px auto;
+}
+/*左边部分*/
+#left {
+	float:left;
+	overflow:auto;
+	min-height:400px;
+	height:auto;
+	width:250px;
+	/*border:1px #999 solid;*/
+	margin-left:90px;
+}
+#left li a{
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+#left li a:hover{
+	color: red;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+
+.active{
+	font-size: 20px;
+	color: red;
+}
+/*左边结束*/
+
+/*右边开始*/
+#right {
+	float:right;
+	width:850px;
+	overflow:auto;
+	padding-bottom:150px;
+	min-height:400px;
+	height:auto;
+	/*border:1px #999 solid;*/
+}
+
+

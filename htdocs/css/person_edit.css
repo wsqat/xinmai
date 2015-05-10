@@ -1,0 +1,78 @@
+/**基本格式开始***************/
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p {
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+}
+ul {
+	list-style:none;
+}
+img,a img {
+	border:none;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+.auto {
+	width:960px;
+	margin:0 auto;
+}
+/**基本格式结束***************/
+/*main 开始*/
+#main {
+	width:1200px;
+	overflow:auto;/*使内容增加时出现滚动条 然后footer始终在底部*/
+	min-height:800px;　　/*与body内容长度保持一致*/ 
+　 	height:auto;　　/*当div内容超过200px高度时，div自动增高*/ 
+	border:0px #999 solid;
+	margin:80px auto 80px auto;
+	/*border:1px solid red;*/
+	
+}
+#inputPart {
+	margin:80px auto;
+	width:750px;
+	height:300px;
+	/*border:1px blue solid;*/
+}
+
+#tabLeft {
+	float:left;
+}
+td {
+	font-size:24px;
+}
+#tabLeft input {
+	height:30px;
+	width:150px;
+}
+#tabRight {
+	float:right;
+}
+#tabRight input {
+	height:30px;
+	width:150px;
+}
+
+#bottom {
+	margin:20px auto;
+	width:992px;
+	min-height:400px;
+	height:auto;
+	border-top:none;
+}
+#bottom input {
+	 width:90px;
+	 height:30px;
+}
+#sub {
+	margin-left:360px;
+	margin-right:50px;
+}
+#bottom #area {
+	margin:5px auto 50px 70px;
+}
+	

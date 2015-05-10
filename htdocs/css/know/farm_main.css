@@ -1,0 +1,130 @@
+/**基本格式开始***************/
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p {
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+}
+ul {
+	list-style:none;
+}
+img,a img {
+	border:none;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+.auto {
+	width:960px;
+	margin:0 auto;
+}
+/**基本格式结束***************/
+/*导航条开始*/
+#header_link {
+	width:100%;
+	height:50px;
+	/*border:1px solid red;*/
+	margin:50px auto 10px auto;
+	background:#aad6a3;
+}
+#header_link ul {
+	margin-left:150px;
+}
+#header_link ul li a{
+	float:left;
+	line-height:50px;
+	font-size:18px;
+	font-family:黑体;
+	color:#000;
+	margin-right:50px;
+}
+#header_link ul li a:hover {
+	text-decoration:none;
+	background:#4aa93e;
+	color:#FFF;
+}
+/*main 开始*/
+#main {
+	width:100%;
+	overflow:auto;/*使内容增加时出现滚动条 然后footer始终在底部*/
+	min-height:600px;　　/*与body内容长度保持一致*/ 
+　 	height:auto;　　/*当div内容超过200px高度时，div自动增高*/ 
+	border:1px #999 solid;
+	margin:10px auto 0px auto;
+	/*background:pink;*/
+	padding-left:140px;
+}
+/*每个模块设置*/
+#main .farm_div {
+	width:525px;
+	height:458px;
+	/*border:1px #999 solid;*/
+	margin-right:20px;
+	margin-bottom:20px;
+	float:left;
+}
+.farm_div_div {
+	width:522px;
+	height:120px;
+	margin-bottom:20px;
+}
+.farm_div p {
+	height:25px;
+	margin-bottom:0px;
+}
+.header_link {
+	line-height:25px;
+	font-size:20px;
+	font-weight:bold;
+	color:#f58f2e;
+}
+.more_link {
+	line-height:25px;
+	font-size:16px;
+	float:right;
+}
+.farm_div .img_ul li a {
+	float:left;
+	margin-right:37px;
+}
+
+#img_li_final1 {
+	margin-right:0px;
+	float:right;
+}
+#img_li_final2 {
+	margin-right:0px;
+	float:right;
+} 
+#img_li_final3 {
+	margin-right:0px;
+	float:right;
+}
+#img_li_final4 {
+	margin-right:0px;
+	float:right;
+}
+
+.news li a {
+	list-style-type:square;
+	line-height:25px;
+	font-size:14px;
+	color:#000;
+}
+.news li a:hover {
+	text-decoration:none;
+	color:#00F;
+}
+
+#div5 {
+	clear:both;
+	width:1070px;
+	height:50px;
+	/*border:1px #999 solid;*/
+	margin-bottom:10px;
+}
+	
+/*右边结束*/
+/*main结束*/

@@ -1,0 +1,41 @@
+ 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>无标题页</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <style type="text/css">
+        .sub{display:none;}
+    </style>
+</head>
+<body>
+    <select id="sel1">
+        <option>北京</option>
+        <option>安徽省</option>
+    </select>
+    <select class="sub">
+        <option>中关村</option>
+        <option>朝阳区</option>
+    </select>    
+    <select class="sub">
+        <option>合肥</option>
+        <option>安庆</option>
+    </select>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#sel1").change(function(){
+                $("#sel1 option").each(function(i,o){
+                    if($(this).attr("selected"))
+                    {
+                        $(".sub").hide();
+                        $(".sub").eq(i).show();
+                    }
+                });
+            });
+            $("#sel1").change();
+        });
+    </script>
+</body>
+</html>

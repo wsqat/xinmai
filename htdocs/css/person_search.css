@@ -1,0 +1,185 @@
+/**基本格式开始***************/
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p {
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+}
+ul {
+	list-style:none;
+}
+img,a img {
+	border:none;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+.auto {
+	width:960px;
+	margin:0 auto;
+}
+/**基本格式结束***************/
+
+
+/*main 开始*/
+#main {
+	width:1200px;
+	overflow:auto;/*使内容增加时出现滚动条 然后footer始终在底部*/
+	min-height:800px;　　/*与body内容长度保持一致*/ 
+　 	height:auto;　　/*当div内容超过200px高度时，div自动增高*/ 
+	border:0px #999 solid;
+	margin:80px auto 80px auto;
+}
+/*左边部分*/
+#left {
+	float:left;
+	overflow:auto;
+	min-height:800px;
+	heigth:auto;
+	width:780px;
+	/*border:1px #999 solid;*/
+}
+
+#left .up {
+	width:600px;
+	height:82px;
+	margin:50px auto 20px auto;
+}
+#left .up a {
+	width:75px;
+	height:55px;
+	display:block;
+	text-decoration:underline;
+	float:right;
+	font-size:18px;
+	color:blue;
+	line-height:55px;
+	font-weight:600;
+}
+
+#search {
+	width:401px;
+	height:36px;
+	font-size:20px;
+	border:1px #4AA93E solid;
+}
+#myMemoir {
+	width:100px;
+	height:40px;
+	background:url(../images/search.png)no-repeat;
+	font-size:18px;
+	color:#FFF;
+	border:none;
+}
+#myMemoir:hover {
+	cursor:pointer;
+}
+.up p {
+	text-align:center;
+	font-family:楷体;
+	font-size:16px;
+	color:#999;
+}
+/*左上结束*/
+
+/*左下开始*/
+#left .down {
+	width:680px;
+	min-height:600px;
+	heigth:auto;
+	overflow:auto;
+	margin:auto auto;
+	padding-left:20px;
+	padding-right:20px;
+	/*border:1px red solid;*/
+}
+.down h1 {
+	font-size:32px;
+	font-family:楷体;
+	text-align:center;
+	margin:10px auto 40px auto;
+	font-weight:800;
+}
+.down #tab1 {
+	float:left;
+	margin-left:80px;
+}
+#tab1,#tab2 tr {
+	line-height:30px;
+}
+.down #tab2 {
+	float:right;
+	margin-right:150px;
+}
+.down p {
+	clear:both;
+	margin-bottom:30px;
+}
+.down p label {
+	margin:50px auto auto 90px;
+	font-size:20px;
+}
+.down a {
+	font-size:18px;
+	margin-left:10px;
+}
+#area p {
+	font-size:18px;
+	line-height:30px;
+}
+#area p input {
+	background:transparent;
+	border:0px;
+	width:30px;
+}
+/*左边结束*/
+
+/*右边开始*/
+#right {
+	float:right;
+	width:400px;
+	overflow:auto;
+	padding-bottom:150px;
+	min-height:800px;
+	heigth:auto;
+	/*border:1px #999 solid;*/
+}
+#right h1{
+	margin:40px auto 0px auto;
+	text-align:center;
+	font-family:楷体;
+	color:blue;
+	font-size:35px;
+}
+#right #title {
+	text-align:center;
+	font-size:20px;
+	font-family:楷体;
+}
+#right #wordNum {
+	font-family:楷体;
+	font-size:27px;
+	color:blue;
+	text-align:center;
+	margin-top:30px;
+}
+#right #hotSearch {
+	text-align:center;
+	font-size:20px;
+	font-family:楷体;
+	color:blue;
+	margin-top:30px;
+	margin-bottom:20px;
+	font-weight:800;
+}
+
+#right ul li {
+	margin-left:183px;
+	font-family:楷体;
+	font-size:20px;
+	line-height:25px;
+}
+/*右边结束*/
+/*main结束*/

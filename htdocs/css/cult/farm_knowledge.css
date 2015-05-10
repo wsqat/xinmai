@@ -1,0 +1,146 @@
+/**基本格式开始***************/
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p {
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+}
+ul {
+	list-style:none;
+}
+img,a img {
+	border:none;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+.auto {
+	width:960px;
+	margin:0 auto;
+}
+/**基本格式结束***************/
+/*导航条开始*/
+#header_link {
+	width:100%;
+	height:50px;
+	/*border:1px solid red;*/
+	margin:50px auto 10px auto;
+	background:#aad6a3;
+}
+#header_link ul {
+	margin-left:150px;
+}
+#header_link ul li a{
+	float:left;
+	line-height:50px;
+	font-size:18px;
+	font-family:黑体;
+	color:#000;
+	margin-right:50px;
+}
+#header_link ul li a:hover {
+	text-decoration:none;
+	background:#4aa93e;
+	color:#FFF;
+}
+/*main 开始*/
+#main_header {
+	margin-left:145px;
+	font-size:14px;
+	margin-bottom:15px;
+}
+#main {
+	width:100%;
+	overflow:auto;/*使内容增加时出现滚动条 然后footer始终在底部*/
+	min-height:600px;　　/*与body内容长度保持一致*/ 
+　 	height:auto;　　/*当div内容超过200px高度时，div自动增高*/ 
+	/*border:1px #999 solid;*/
+	margin:10px auto 80px auto;
+}
+/*左边部分*/
+#left {
+	float:left;
+	margin-left:140px;
+	overflow:auto;
+	min-height:600px;
+	heigth:auto;
+	width:780px;
+	/*border:1px #999 solid;*/
+}
+#left h1 {
+	font-size:24px;
+	margin-bottom:10px;
+}
+/*段落缩进*/
+#left p {
+	font-size:14px;
+	line-height:25px;
+ 	text-align:left;
+ 	text-indent:2em;
+}
+	
+#left_ol {
+	margin-left:30px;/*距离尽量大防止两位数时前面的0被隐藏*/
+	/*border:1px #999 solid; ol本身不包含前面的标号，因此需要为前面的标号留出空间*/
+	list-style-type:decimal;
+	margin-top:30px;
+}
+#left_ol li {
+	font-size:16px; 
+	line-height:28px;
+}
+/*右边开始*/
+#right {
+	margin-left:20px;
+	float:left;
+	width:300px;
+	padding-bottom:150px;
+	min-height:600px;
+	heigth:auto;
+	/*border:1px #999 solid;*/
+}
+#right span {
+	display:block;
+	font-size:14px;
+	color:#ee9740;
+	margin-bottom:10px;
+}
+#right ul {
+	width:300px;
+	height:190px;
+	margin-bottom:10px; 
+	display:block;
+}
+.li_link{
+	font-size:14px;
+	margin-bottom:3px;
+}
+.hr {
+	height:1px;
+	border:none;
+	border-top:1px dashed blue;
+	margin-bottom:3px;
+	margin-top:10px;
+}
+/*培根杂蔬炒饭 羊*/
+#main_right_down {
+	width:320px;
+	heigth:300px;
+	margin-top:10px;
+}
+#main_right_down ul li{
+	float:left;
+	margin:auto 10px 10px auto;
+}
+.p_down_center a {
+	display:block;
+	text-align:center;
+}
+#main_right_down p {
+	clear:both;
+	text-align:right;
+}
+/*右边结束*/
+/*main结束*/

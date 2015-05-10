@@ -1,0 +1,318 @@
+
+
+
+
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";}
+
+/* flexslider */
+.flexslider{position:relative;height:500px;overflow:hidden;background:url(../images/ban/loading.gif) 50% no-repeat;margin-top:-40px;}
+.slides{position:relative;z-index:1;}
+.slides li{height:500px;}
+.flex-control-nav{position:absolute;bottom:10px;z-index:2;width:100%;text-align:center;}
+.flex-control-nav li{display:inline-block;width:14px;height:14px;margin:0 5px;*display:inline;zoom:1;}
+.flex-control-nav a{display:inline-block;width:14px;height:14px;line-height:40px;overflow:hidden;background:url(../images/ban/dot.png) right 0 no-repeat;cursor:pointer;}
+.flex-control-nav .flex-active{background-position:0 0;}
+
+.flex-direction-nav{position:absolute;z-index:3;width:100%;top:45%;}
+.flex-direction-nav li a{display:block;width:50px;height:50px;overflow:hidden;cursor:pointer;position:absolute;}
+.flex-direction-nav li a.flex-prev{left:40px;background:url(../images/ban/prev.png) center center no-repeat;}
+.flex-direction-nav li a.flex-next{right:40px;background:url(../images/ban/next.png) center center no-repeat;}
+
+
+/*.banner{
+  width: 1366px;
+  height: 500px;
+  margin-top: -20px;
+}
+
+.banner .num{overflow:hidden;height:20px;position:absolute;margin-top:-100px;right:100px;zoom:1;z-index:3}
+.banner .num li{
+  width:20px;height:20px;line-height:20px;text-align:center;font-size:12px;font-weight:400;font-family:"微软雅黑", Arial;color:#FFFFFF;background:#000000;margin-right:6px;border-radius:50%;cursor:pointer;float:left;}
+.banner .num li.on{background:#C40000;}
+
+.banner .prev_pic,.banner .next_pic{ display:none;width:39px;height:50px;background:url(../images/btn.png) no-repeat;position:absolute;top:280px;}
+.banner .prev_pic{ left:5px;}
+.banner .next_pic{ right:5px;background-position:right;}*/
+
+
+
+
+
+#content {
+    clear: left;
+}
+
+
+.row-header{
+  z-index: 4;
+  /*border:1px solid #000;*/
+}
+.row-header ul{
+  z-index: 5;
+}
+
+/*.row-header li:hover{
+  display: block;
+  text-align: center;
+  border-bottom-left-radius: 2px;
+  border-bottom: 5px solid #fff;  
+}*/
+
+/*.row-header li:hover ul {
+    left: auto;
+}*/
+.row-header li:hover ul/*,.row-header li.hover ul*/{
+  left: auto;
+}
+
+.row-header ul li a{
+  font-size: 20px;
+  font-weight: 10px;
+  color: white;
+  text-decoration:none;
+  /*border:1px solid #000;*/
+}
+
+.row-header ul li a:hover{
+  border-top: 4px;
+  border-bottom: 5px solid #fff;  
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+
+.row-header li ul {
+    list-style-type: none;
+    text-align: center;
+    left: -999em; 
+    /*background-color:rgb(173,195,21);*/
+    background-color:rgba(173,195,21,.5);
+    position: absolute;
+    margin-top: 2px;
+  /*  margin-left: 2em;*/
+    height: 472px;
+}
+.row-header li ul li{
+    font-size: 16px;
+    float: left;
+    width:150px;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+
+.row-header li ul li:hover{
+  color:rgb(82,126,172);
+  text-decoration:none;
+}
+
+
+/*.row-header li ul li:active{
+ color:rgb(82,126,172);
+  text-decoration:none; 
+}*/
+.row-header li ul a{
+    font-size: 26px;
+    /*line-height: 30px;*/
+    /*color: blue;*/
+    color: #fff;
+    display: block; 
+    margin-bottom: 10px;
+    font-size: 26px;
+    float: left;
+    width:150px;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+.row-header li ul a:link  {
+    color: #fff;
+    text-decoration:none;
+}
+.row-header li ul a:visited  {
+    /*color:rgb(82,126,172);*/
+    text-decoration:none;
+    text-align: center;
+}
+.row-header li ul a:hover  {
+    /*color:#F3F3F3;*/
+    /*color:rgb(82,126,172);*/
+    color:blue;
+    text-decoration:none;
+    border-top: 4px;
+  /*border-bottom: 5px solid #38f;  */
+    border-bottom:0px;  
+}
+
+
+
+
+/*.row-header li.sfhover ul {
+    left: auto;
+}
+*/
+
+.row-header li div{
+   margin-left:150px;
+   /*margin-top:25px;*/
+   position:absolute;
+   width:300px;
+   /*float: left;*/
+   height:30px;
+   /*color: black;*/
+   color:rgb(82,126,172);
+   background-color:rgba(173,195,21,.5);
+}
+
+
+
+.row-header div{
+  display:none;
+  position:absolute;
+  margin-top:40px;
+  width:150px;height:450px;
+}
+
+.row-header div p a{
+  color: black;
+  text-decoration:none;
+}
+.row-header div p a:hover{
+  color: blue;
+  text-decoration:none;
+}
+
+.row-header li li a{
+  z-index: 6;
+}
+.row-header li li div{
+  z-index: 10;
+}
+
+
+
+
+/*main*/
+.main{
+  height: 1460px;
+  text-align: center;
+  background: #fff;
+}
+/*main1推荐农商*/
+.main1{
+  /*margin-top: 35px;*/
+  /*height: 435px;*/
+  text-align: center;
+}
+.main1-title{
+   margin-top: 15px;
+}
+.main1-center{
+  margin-top: 3px;
+}
+#title{
+  margin-left: 120px;
+  line-height: 30px;
+  font-size: 2em;
+}
+#type{
+  margin-left: 605px;
+  line-height: 26px;
+  color: blue;
+}
+/*main2农副产品*/
+.main2{
+  /*margin-top: 35px;*/
+  /*height: 435px;*/
+  text-align: center;
+}
+.main2-title{
+   margin-top: 15px;
+}
+.main2-center{
+  margin-top: 3px;
+}
+
+
+.main3{
+  margin-top: 25px;
+  height: 560px;
+  text-align: left;  
+}
+.main3 a{
+  color:#f28b28;
+}
+.main3-left{
+  width: 23%;
+  height: 560px;
+  float: left;
+  text-align: left;
+  margin-left: 12%; 
+  margin-right: 2%;
+}
+.main3-left span{
+  color:#f28b28;
+  font-size: 1.5em;
+  font-weight:bold;
+}
+.main3-left a{
+  color:#f28b28;
+}
+.main3-left p{
+  /*margin-left: 30px;*/
+}
+.main3-left-down{
+  width:100%;
+  /*height: auto;*/
+  margin-bottom: 20px;
+}
+.main3-left-down-left{
+  float: left;
+  margin-bottom: 20px;
+}
+
+.main3-left-down-right{
+  margin-top: 10px;
+  margin-left: 40px;
+  text-align: center;
+  float: left;
+  margin-bottom: 20px;
+}
+.main3-left-down-right li{
+  list-style-type: disc;
+
+
+}
+
+
+.main3-center{
+  width: 31%;
+  height: 500px;
+  float: left;
+  margin-top: 35px;
+  margin-left: -15px;
+  /*margin-left: 450px; */
+}
+.main3-right{
+  width: 24%;
+  height: 500px;
+  float: left;
+  /*margin-left: 750px; */
+}
+.main3-right span{
+  color:#f28b28;
+  font-size: 1.5em;
+  font-weight:bold;
+}
+.main3-right li{
+  list-style-type: square;  
+  margin-left: 15px;
+  margin-top: 8px;
+}
+
+
+
+
+
